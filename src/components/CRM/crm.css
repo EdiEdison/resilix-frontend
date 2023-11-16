@@ -1,0 +1,134 @@
+#crm{
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(21, 168, 236, 0.8),
+        rgba(78, 225, 245, 0.7)
+      ),
+      url(../../img/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.crm__container{
+    
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.crm__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary), transparent
+    );
+    display: grid;
+}
+
+.crm__me__image{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.crm__me__image:hover{
+    transform:rotate(0);
+}
+
+.crm__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.crm__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.crm__card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+
+.crm__icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.crm__card h5{
+    font-size: .95rem;
+}
+
+.crm__card small{
+    font-size: .7rem;
+    color: var(--color-light);
+}
+
+.crm__me__content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+
+@media screen and(max-width:1024px) {
+    .crm__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    
+    .crm__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .crm__me p{
+        margin: 1rem 0 1.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+.crm__container{
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+.crm__me{
+    width: 65%;
+    margin: 0 auto 3rem;
+}
+
+.crm__cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.crm__me__content{
+    text-align: center;
+}
+
+.crm__me__content p{
+    margin: 1.5rem 0;
+    }
+
+}
