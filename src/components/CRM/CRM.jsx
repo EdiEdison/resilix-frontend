@@ -1,9 +1,6 @@
 import React from 'react';
 import './crm.css';
 import moi from '../../img/background.jpg';
-// import { FaAward } from 'react-icons/fa';
-// import { FiUsers } from 'react-icons/fi';
-// import { VscFolderLibrary } from 'react-icons/vsc';
 
 const CRM = () => {
   return (

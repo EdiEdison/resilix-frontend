@@ -1,14 +1,17 @@
 #solution{
     background-color: var(--color-primary);
     color: var(--color-bg);
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+#solution h2{
+    color: white;
 }
 .solution__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: .5rem;
-}
-solution h3{
-    color: var(--color-bg);
+    margin-top: 0;
 }
 .solution__container>div{
     background:var(--color-bg-variant);
@@ -27,11 +30,13 @@ solution h3{
 .solution__container > div h3{
     text-align: center;
     margin-bottom: .5rem;
-    color: var(--color-primary);
+    color: var(--color-bg);
+
 }
 
 .solution__content{
     margin-top: 1rem;
+    color: black;
 }
 
 

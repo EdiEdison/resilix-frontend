@@ -10,19 +10,25 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0;
+    margin: 0 ;
+    padding-bottom: 30px;
 }
 .home__container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-
-
-
-
 .home__me__content p{
     margin: 2rem 0 2.6rem;
-    color: var(--color-primary);
+    color: var(--color-bg);
+}
+.home__me__content a{
+    background-color: transparent;
+    border-color: var(--color-bg);
+    color: var(--color-bg);
+}
+.home__me__content a:hover{
+    color: var(--color-bg);
+    background-color: var(--color-primary);
 }
 .home__me__content h2{
     font-weight: 900;
@@ -64,7 +70,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
-
+.home__me__image img{
+padding-top: 60px;
+margin-top: 60px;
+}
 .home__me__content{
     text-align: center;
 }

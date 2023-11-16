@@ -1,9 +1,5 @@
 #crm{
     content: '';
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
     background: var(--color-darkblue);
     background-image: linear-gradient(
         115deg,
@@ -14,7 +10,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    margin: 0;
+    padding: 30px;
+    color: var(--color-bg);
 }
 .crm__container{
     
@@ -33,13 +31,11 @@
         transparent,
         var(--color-primary), transparent
     );
-    display: grid;
 }
 
 .crm__me__image{
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
     transition: var(--transition);
 }
 
@@ -47,45 +43,9 @@
     transform:rotate(0);
 }
 
-.crm__cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-}
-
-.crm__card{
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    padding: 2rem;
-    text-align: center;
-    transition: var(--transition);
-}
-
-.crm__card:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-}
-
-
-.crm__icon{
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
-.crm__card h5{
-    font-size: .95rem;
-}
-
-.crm__card small{
-    font-size: .7rem;
-    color: var(--color-light);
-}
-
 .crm__me__content p{
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-bg);
 }
 
 
