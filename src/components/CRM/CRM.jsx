@@ -1,6 +1,6 @@
 import React from 'react';
 import './crm.css';
-import moi from '../../img/background.jpg';
+import moi from '../../img/9.png';
 
 const CRM = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import moi from '../../img/5.jpg';
+import moi from '../../img/10.png';
 
 const Home = () => {
   return (

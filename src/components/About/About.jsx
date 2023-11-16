@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-
+import IMG from '../../img/11.jpg'
 const About = () => {
     return (
       <section id="about">
@@ -12,16 +12,8 @@ const About = () => {
             </p>
           </div>
           <div className="about__me__content">
-            <div className="about__cards">
-              <article className="about__card">
-                
-              </article>
-              <article className="about__card">
-                
-              </article>
-              <article className="about__card">
-                
-              </article>
+            <div className="crm__me__image">
+              <img src={IMG} alt=""></img>
             </div>
            
           </div>

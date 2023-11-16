@@ -32,7 +32,15 @@ padding-bottom: 0;
     text-align: center;
     transition: var(--transition);
 }
+.crm__me__image{
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: var(--transition);
+}
 
+.crm__me__image:hover{
+    transform:rotate(0);
+}
 .about__card:hover{
     background: transparent;
     border-color: var(--color-primary-variant);

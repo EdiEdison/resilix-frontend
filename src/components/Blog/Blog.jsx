@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 //import axios from "axios";
 import './blog.css'
-import IMG1 from '../../img/5.jpg'
 import IMG2 from '../../img/6.jpg'
 import IMG3 from '../../img/7.jpg'
 import IMG4 from '../../img/8.jpg'
