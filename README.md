@@ -1,5 +1,7 @@
 # Getting Started with Create React App
-
+# This repository is for the FrontEnd part of Resilix, 
+##HackMyCity
+##SMCON23
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
